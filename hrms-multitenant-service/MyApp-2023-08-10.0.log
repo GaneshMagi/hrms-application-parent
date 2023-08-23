@@ -1,0 +1,901 @@
+2023-08-10 11:55:01,026 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-10 11:55:01,058 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 2384 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 11:55:01,059 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 11:55:01,121 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 11:55:01,121 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 11:55:02,194 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 11:55:02,537 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 11:55:02,730 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 183 ms. Found 2 JPA repository interfaces.
+2023-08-10 11:55:03,092 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 11:55:04,161 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 11:55:04,175 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 11:55:04,176 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 11:55:04,176 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 11:55:04,324 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 11:55:04,326 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3204 ms
+2023-08-10 11:55:04,834 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 11:55:04,896 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-08-10 11:55:05,049 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 11:55:05,158 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-10 11:55:05,333 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-10 11:55:05,353 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 11:55:06,216 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 11:55:06,223 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 11:55:06,869 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 11:55:07,764 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 11:55:07,829 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 11:55:07,965 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 11:55:08,079 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 11:55:08,128 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 11:55:08,170 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 11:55:08,246 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 11:55:08,251 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 11:55:08,278 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 11:55:08,278 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 11:55:08,279 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 11:55:08,279 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 11:55:08,279 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 11:55:08,279 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 11:55:08,279 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 11:55:08,863 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 11:55:08,866 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 11:55:08,871 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 11:55:08,879 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691648708877 with initial instances count: 0
+2023-08-10 11:55:08,890 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 11:55:08,891 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691648708891, current=UP, previous=STARTING]
+2023-08-10 11:55:08,893 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 11:55:08,894 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 11:55:08,922 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 11:55:08,924 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 11:55:09,039 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 11:55:09,040 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 8.701 seconds (JVM running for 9.899)
+2023-08-10 11:55:38,875 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 11:55:38,876 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 11:55:38,877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 11:55:38,878 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 11:55:38,879 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 11:55:38,880 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: false
+2023-08-10 11:55:38,881 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 11:55:38,907 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 12:00:08,282 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:05:08,288 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:10:08,301 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:15:08,312 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:20:08,317 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:21:56,813 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 24 class path changes (0 additions, 21 deletions, 3 modifications)
+2023-08-10 12:21:56,815 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application HRMS-MULTITENANT-SERVICE with eureka with status DOWN
+2023-08-10 12:21:56,816 [Thread-7] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691650316816, current=DOWN, previous=UP]
+2023-08-10 12:21:56,816 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:21:56,822 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 12:21:56,832 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:21:56,833 [Thread-7] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-10 12:21:56,837 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:21:56,839 [Thread-7] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:21:56,847 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:21:56,851 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-08-10 12:21:56,866 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-08-10 12:21:56,869 [Thread-7] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-10 12:21:59,894 [Thread-7] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-10 12:22:00,019 [Thread-7] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - deregister  status: 200
+2023-08-10 12:22:00,065 [Thread-7] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-10 12:22:00,658 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 2384 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 12:22:00,659 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 12:22:00,955 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 12:22:01,054 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 12:22:01,068 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2023-08-10 12:22:01,158 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 12:22:01,302 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 12:22:01,303 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:22:01,303 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 12:22:01,304 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 12:22:01,338 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 12:22:01,338 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 674 ms
+2023-08-10 12:22:01,487 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 12:22:01,493 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2023-08-10 12:22:01,547 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2023-08-10 12:22:01,548 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 12:22:01,651 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 12:22:01,652 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:22:01,949 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 12:22:02,554 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 12:22:02,585 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 12:22:02,707 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 12:22:02,761 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 12:22:02,783 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 12:22:02,808 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 12:22:02,813 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 12:22:02,813 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:22:02,815 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 12:22:02,816 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 12:22:02,816 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 12:22:02,816 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 12:22:02,816 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 12:22:02,816 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 12:22:02,817 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 12:22:02,848 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 12:22:02,850 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 12:22:02,857 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 12:22:02,859 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691650322859 with initial instances count: 2
+2023-08-10 12:22:02,864 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 12:22:02,865 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691650322865, current=UP, previous=STARTING]
+2023-08-10 12:22:02,865 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:22:02,866 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:22:02,872 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 12:22:02,872 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 12:22:02,882 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 12:22:02,997 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 2.769 seconds (JVM running for 1623.857)
+2023-08-10 12:22:03,029 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-10 12:22:04,041 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 21 class path changes (21 additions, 0 deletions, 0 modifications)
+2023-08-10 12:22:04,046 [Thread-9] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application HRMS-MULTITENANT-SERVICE with eureka with status DOWN
+2023-08-10 12:22:04,047 [Thread-9] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691650324047, current=DOWN, previous=UP]
+2023-08-10 12:22:04,048 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:22:04,056 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 12:22:04,066 [Thread-9] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:22:04,066 [Thread-9] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-10 12:22:04,069 [Thread-9] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:22:04,070 [Thread-9] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:22:04,073 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:22:04,075 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2023-08-10 12:22:04,078 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2023-08-10 12:22:04,080 [Thread-9] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-10 12:22:07,095 [Thread-9] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-10 12:22:07,101 [Thread-9] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - deregister  status: 200
+2023-08-10 12:22:07,105 [Thread-9] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-10 12:22:07,351 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 2384 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 12:22:07,355 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 12:22:07,655 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 12:22:07,751 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 12:22:07,769 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2023-08-10 12:22:07,916 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 12:22:08,074 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 12:22:08,075 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:22:08,075 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 12:22:08,076 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 12:22:08,113 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 12:22:08,113 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 754 ms
+2023-08-10 12:22:08,248 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 12:22:08,256 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Starting...
+2023-08-10 12:22:08,328 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Start completed.
+2023-08-10 12:22:08,330 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 12:22:08,436 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 12:22:08,436 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:22:08,704 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 12:22:09,209 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 12:22:09,241 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 12:22:09,444 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 12:22:09,517 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 12:22:09,534 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 12:22:09,554 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 12:22:09,558 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 12:22:09,558 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:22:09,559 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 12:22:09,560 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 12:22:09,560 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 12:22:09,560 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 12:22:09,560 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 12:22:09,561 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 12:22:09,561 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 12:22:09,578 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 12:22:09,579 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 12:22:09,580 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 12:22:09,581 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691650329581 with initial instances count: 2
+2023-08-10 12:22:09,586 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 12:22:09,587 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691650329587, current=UP, previous=STARTING]
+2023-08-10 12:22:09,587 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:22:09,588 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:22:09,599 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 12:22:09,599 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 12:22:09,605 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 12:22:09,729 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 2.569 seconds (JVM running for 1630.588)
+2023-08-10 12:22:09,767 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-10 12:22:39,593 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient            - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2023-08-10 12:22:39,596 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient            - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 32 more
+
+2023-08-10 12:22:39,596 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient              - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-08-10 12:22:39,656 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient              - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-08-10 12:22:39,674 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient            - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 36 more
+
+2023-08-10 12:22:39,703 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient              - Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-08-10 12:22:39,704 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-08-10 12:22:39,707 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient            - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 33 more
+
+2023-08-10 12:22:39,712 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient              - Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-08-10 12:22:39,715 [DiscoveryClient-HeartbeatExecutor-0] ERROR com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-10 12:22:42,375 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application HRMS-MULTITENANT-SERVICE with eureka with status DOWN
+2023-08-10 12:22:42,376 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691650362376, current=DOWN, previous=UP]
+2023-08-10 12:22:42,376 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:22:42,393 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient            - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2023-08-10 12:22:42,399 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient              - Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/HRMS-MULTITENANT-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-08-10 12:22:42,400 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-10 12:22:42,405 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator               - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-10 12:22:42,410 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:22:42,412 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Shutdown initiated...
+2023-08-10 12:22:42,427 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Shutdown completed.
+2023-08-10 12:22:42,433 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-10 12:22:45,436 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-10 12:22:45,684 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - deregister  status: 404
+2023-08-10 12:22:45,688 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-10 12:23:12,220 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-10 12:23:12,236 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 27112 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 12:23:12,241 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 12:23:12,315 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 12:23:12,317 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 12:23:13,262 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 12:23:13,640 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 12:23:13,794 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 146 ms. Found 2 JPA repository interfaces.
+2023-08-10 12:23:14,159 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 12:23:15,154 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 12:23:15,169 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:23:15,170 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 12:23:15,170 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 12:23:15,310 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 12:23:15,310 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2992 ms
+2023-08-10 12:23:15,863 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 12:23:15,935 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-08-10 12:23:16,158 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 12:23:16,289 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-10 12:23:16,481 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-10 12:23:16,515 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 12:23:17,259 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 12:23:17,268 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:23:17,984 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 12:23:18,953 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 12:23:19,038 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 12:23:19,214 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 12:23:19,365 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 12:23:19,410 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 12:23:19,465 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 12:23:19,540 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 12:23:19,546 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:23:19,572 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 12:23:19,573 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 12:23:19,573 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 12:23:19,575 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 12:23:19,575 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 12:23:19,575 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 12:23:19,575 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 12:23:19,963 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 12:23:19,966 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 12:23:19,970 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 12:23:19,975 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691650399974 with initial instances count: 0
+2023-08-10 12:23:19,981 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 12:23:19,982 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691650399982, current=UP, previous=STARTING]
+2023-08-10 12:23:19,983 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:23:19,984 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:23:20,008 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 12:23:20,009 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 12:23:20,035 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 12:23:20,157 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 8.672 seconds (JVM running for 9.813)
+2023-08-10 12:23:49,979 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 12:23:49,980 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 12:23:49,980 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 12:23:49,981 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 12:23:49,981 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 12:23:49,982 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: false
+2023-08-10 12:23:49,983 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 12:23:50,007 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 12:28:19,580 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:33:19,585 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:36:31,381 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application HRMS-MULTITENANT-SERVICE with eureka with status DOWN
+2023-08-10 12:36:31,382 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691651191382, current=DOWN, previous=UP]
+2023-08-10 12:36:31,383 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:36:31,399 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 12:36:31,443 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:36:31,454 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-08-10 12:36:31,484 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-08-10 12:36:31,487 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-10 12:36:34,512 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-10 12:36:34,522 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - deregister  status: 200
+2023-08-10 12:36:34,536 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-10 12:36:42,804 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-10 12:36:42,831 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 13396 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 12:36:42,832 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 12:36:42,877 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 12:36:42,878 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 12:36:43,513 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 12:36:43,825 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 12:36:43,982 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
+2023-08-10 12:36:44,288 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 12:36:45,295 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 12:36:45,304 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:36:45,304 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 12:36:45,305 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 12:36:45,407 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 12:36:45,407 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2528 ms
+2023-08-10 12:36:45,784 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 12:36:45,837 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-08-10 12:36:45,978 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 12:36:46,064 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-10 12:36:46,244 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-10 12:36:46,280 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 12:36:46,930 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 12:36:46,946 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 12:36:47,655 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 12:36:48,495 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 12:36:48,560 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 12:36:48,683 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 12:36:48,799 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 12:36:48,856 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 12:36:48,896 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 12:36:48,976 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 12:36:48,980 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:36:49,006 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 12:36:49,006 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 12:36:49,006 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 12:36:49,007 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 12:36:49,007 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 12:36:49,007 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 12:36:49,007 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 12:36:49,374 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 12:36:49,378 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 12:36:49,382 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 12:36:49,389 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691651209388 with initial instances count: 3
+2023-08-10 12:36:49,402 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 12:36:49,403 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691651209403, current=UP, previous=STARTING]
+2023-08-10 12:36:49,406 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 12:36:49,408 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 12:36:49,459 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 12:36:49,461 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 12:36:49,488 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 12:36:49,621 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 7.487 seconds (JVM running for 8.162)
+2023-08-10 12:41:49,023 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:46:49,030 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:51:49,032 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 12:56:49,036 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:01:49,052 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:06:49,065 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:11:49,072 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:16:49,080 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:37:47,908 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m1s2ms598탎).
+2023-08-10 13:41:20,080 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:46:20,082 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:51:20,094 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 13:56:20,098 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:01:20,101 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:06:20,117 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:11:20,122 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:16:20,125 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:21:20,132 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:26:20,136 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:31:20,148 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:36:20,164 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:41:20,174 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:46:20,187 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:51:20,197 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 14:56:20,210 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:01:20,213 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:06:20,230 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:10:37,776 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application HRMS-MULTITENANT-SERVICE with eureka with status DOWN
+2023-08-10 15:10:37,777 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691660437777, current=DOWN, previous=UP]
+2023-08-10 15:10:37,777 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 15:10:37,787 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 15:10:37,804 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 15:10:37,808 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-08-10 15:10:37,814 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-08-10 15:10:37,820 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-10 15:10:40,838 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-10 15:10:40,843 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - deregister  status: 200
+2023-08-10 15:10:40,848 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-10 15:11:00,176 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-10 15:11:00,200 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 18952 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 15:11:00,201 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 15:11:00,246 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 15:11:00,247 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 15:11:00,791 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 15:11:01,025 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 15:11:01,134 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+2023-08-10 15:11:01,335 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 15:11:01,978 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 15:11:01,988 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 15:11:01,990 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 15:11:01,991 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 15:11:02,072 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 15:11:02,072 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1825 ms
+2023-08-10 15:11:02,398 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 15:11:02,430 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-08-10 15:11:02,528 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 15:11:02,590 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-10 15:11:02,712 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-10 15:11:02,726 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 15:11:03,214 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 15:11:03,219 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 15:11:03,677 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 15:11:04,350 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 15:11:04,400 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 15:11:04,506 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 15:11:04,597 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 15:11:04,636 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 15:11:04,675 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 15:11:04,739 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 15:11:04,744 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:11:04,771 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 15:11:04,772 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 15:11:04,772 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 15:11:04,772 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 15:11:04,772 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 15:11:04,772 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 15:11:04,773 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 15:11:05,046 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 15:11:05,049 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 15:11:05,052 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 15:11:05,057 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691660465056 with initial instances count: 1
+2023-08-10 15:11:05,063 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 15:11:05,064 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691660465064, current=UP, previous=STARTING]
+2023-08-10 15:11:05,066 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 15:11:05,066 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 15:11:05,089 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 15:11:05,090 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 15:11:05,103 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 15:11:05,213 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 5.46 seconds (JVM running for 5.98)
+2023-08-10 15:16:04,776 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:21:04,785 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:26:04,800 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:31:04,807 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:36:04,811 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:41:04,819 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:46:04,831 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:51:04,839 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 15:56:04,855 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:01:04,865 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:06:04,879 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:07:11,109 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application HRMS-MULTITENANT-SERVICE with eureka with status DOWN
+2023-08-10 16:07:11,110 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691663831110, current=DOWN, previous=UP]
+2023-08-10 16:07:11,110 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 16:07:11,119 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 16:07:11,142 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 16:07:11,148 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-08-10 16:07:11,154 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-08-10 16:07:11,169 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-10 16:07:14,176 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-10 16:07:14,182 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - deregister  status: 200
+2023-08-10 16:07:14,185 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-10 16:07:36,088 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-10 16:07:36,113 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 1088 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 16:07:36,114 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 16:07:36,164 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 16:07:36,165 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 16:07:36,723 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 16:07:36,945 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 16:07:37,057 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 106 ms. Found 2 JPA repository interfaces.
+2023-08-10 16:07:37,296 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 16:07:37,954 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 16:07:37,962 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 16:07:37,962 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 16:07:37,963 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 16:07:38,059 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 16:07:38,059 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1894 ms
+2023-08-10 16:07:38,429 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 16:07:38,469 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-08-10 16:07:38,589 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 16:07:38,675 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-10 16:07:38,837 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-10 16:07:38,851 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 16:07:39,583 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 16:07:39,596 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 16:07:40,347 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 16:07:41,223 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 16:07:41,269 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 16:07:41,363 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 16:07:41,448 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 16:07:41,481 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 16:07:41,514 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 16:07:41,579 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 16:07:41,584 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:07:41,601 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 16:07:41,601 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 16:07:41,601 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 16:07:41,602 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 16:07:41,602 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 16:07:41,602 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 16:07:41,602 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 16:07:41,876 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 16:07:41,878 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 16:07:41,881 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 16:07:41,885 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691663861884 with initial instances count: 1
+2023-08-10 16:07:41,890 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 16:07:41,891 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691663861891, current=UP, previous=STARTING]
+2023-08-10 16:07:41,893 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 16:07:41,894 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 16:07:41,921 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 16:07:41,927 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 16:07:41,936 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 16:07:42,033 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 6.35 seconds (JVM running for 6.866)
+2023-08-10 16:12:41,611 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:17:41,615 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:22:41,619 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:27:41,634 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:32:41,643 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:37:41,649 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:42:41,657 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:47:41,660 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:52:41,674 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 16:57:41,680 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:02:41,687 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:07:41,694 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:16:27,579 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m17s844ms685탎299ns).
+2023-08-10 17:20:29,530 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:25:29,542 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:30:29,545 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:43:34,018 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m36s113ms698탎101ns).
+2023-08-10 17:43:35,658 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:48:35,661 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:53:35,666 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 17:58:35,671 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:03:35,684 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:08:35,691 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:13:35,699 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:18:35,708 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:23:35,715 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:28:35,718 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:33:35,729 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:38:35,732 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:43:35,748 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:48:35,759 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 18:53:05,212 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m178ms365탎200ns).
+2023-08-10 18:56:05,948 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 19:01:05,964 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 19:06:05,968 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 19:07:56,166 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application HRMS-MULTITENANT-SERVICE with eureka with status DOWN
+2023-08-10 19:07:56,167 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691674676167, current=DOWN, previous=UP]
+2023-08-10 19:07:56,167 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 19:07:56,185 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 19:07:56,305 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 19:07:56,331 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-08-10 19:07:56,337 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-08-10 19:07:56,344 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-10 19:07:59,363 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-10 19:07:59,378 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - deregister  status: 200
+2023-08-10 19:07:59,392 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-10 19:08:21,984 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-10 19:08:22,001 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Starting MultitenantApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 29524 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-multitenant-service)
+2023-08-10 19:08:22,002 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - No active profile set, falling back to 1 default profile: "default"
+2023-08-10 19:08:22,048 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 19:08:22,049 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 19:08:22,911 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-10 19:08:23,204 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 19:08:23,346 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
+2023-08-10 19:08:23,703 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=a4100b78-c757-3517-aedc-fdebe551232f
+2023-08-10 19:08:24,843 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8083 (http)
+2023-08-10 19:08:24,875 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8083"]
+2023-08-10 19:08:24,877 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-10 19:08:24,878 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-10 19:08:25,098 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-10 19:08:25,098 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3049 ms
+2023-08-10 19:08:25,613 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 19:08:25,660 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-08-10 19:08:25,798 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 19:08:25,926 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-10 19:08:26,121 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-10 19:08:26,137 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-10 19:08:27,145 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 19:08:27,160 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 19:08:28,108 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 19:08:29,254 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-10 19:08:29,323 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-08-10 19:08:29,463 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-10 19:08:29,623 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-10 19:08:29,696 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-10 19:08:29,775 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-10 19:08:29,895 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-10 19:08:29,903 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-10 19:08:29,935 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-10 19:08:29,935 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-10 19:08:29,936 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-10 19:08:29,937 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-10 19:08:29,937 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-10 19:08:29,937 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-10 19:08:29,937 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-10 19:08:30,248 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-10 19:08:30,251 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-10 19:08:30,253 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-10 19:08:30,260 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691674710258 with initial instances count: 2
+2023-08-10 19:08:30,267 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application HRMS-MULTITENANT-SERVICE with eureka with status UP
+2023-08-10 19:08:30,268 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691674710268, current=UP, previous=STARTING]
+2023-08-10 19:08:30,272 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083: registering service...
+2023-08-10 19:08:30,272 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8083"]
+2023-08-10 19:08:30,333 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8083 (http) with context path ''
+2023-08-10 19:08:30,334 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8083
+2023-08-10 19:08:30,359 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_HRMS-MULTITENANT-SERVICE/host.docker.internal:hrms-multitenant-service:8083 - registration status: 204
+2023-08-10 19:08:30,693 [restartedMain] INFO  c.r.h.multitenant.MultitenantApplication           - Started MultitenantApplication in 9.209 seconds (JVM running for 10.247)
+2023-08-10 19:13:29,942 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration

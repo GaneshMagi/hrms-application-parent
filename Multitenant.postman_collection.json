@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "5813da45-063b-4e3a-ac8c-c068400d7202",
+		"name": "Multitenant",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28529331"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8082/multitenant/api/clients",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\":\"Sonali Patil\",\r\n    \"organizationName\":\"wipro\",\r\n    \"subscriptionType\":\"Monthly\",\r\n    \"email\":\"info@itcinfotech1.com\",\r\n    \"contactNo\":\"9024901081\",\r\n    \"referralCode\":\"12349\",\r\n    \"noOfEmployee\":\"1-50\",\r\n    \"active\":true\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/multitenant/api/clients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"multitenant",
+						"api",
+						"clients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/multitenant/api/ranges",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"empRange\": \"500-700\",\r\n    \"preference\":19\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/multitenant/api/ranges",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"multitenant",
+						"api",
+						"ranges"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/multitenant/api/ranges/552",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/multitenant/api/ranges/552",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"multitenant",
+						"api",
+						"ranges",
+						"552"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/multitenant/api/ranges",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/multitenant/api/ranges",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"multitenant",
+						"api",
+						"ranges"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/multitenant/api/clients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/multitenant/api/clients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"multitenant",
+						"api",
+						"clients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/multitenant/api/clients/13",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\":\"Rahul Patil\",\r\n    \"organizationName\":\"hptest.vt.Ltd\",\r\n    \"subscriptionType\":\"Monthly\",\r\n    \"domainName\": \"redberyltech10.com\",\r\n    \"email\":\"info@redberyltech10.com\",\r\n    \"contactNo\":\"97086918991\",\r\n    \"referralCode\":\"12349\",\r\n    \"noOfEmployee\":\"1-50\",\r\n    \"active\":true\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/multitenant/api/clients/13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"multitenant",
+						"api",
+						"clients",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/multitenant/api/clients/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/multitenant/api/clients/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"multitenant",
+						"api",
+						"clients",
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

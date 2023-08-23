@@ -1,0 +1,10 @@
+google_auth_oauthlib
+docx2txt
+pandas
+uvicorn
+fastapi
+pdfminer.six
+sqlalchemy
+psycopg2
+google-api-python-client
+pywin32

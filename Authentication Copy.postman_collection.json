@@ -1,0 +1,408 @@
+{
+	"info": {
+		"_postman_id": "aa604a57-2d2a-4f0e-b0fa-02928ad2e9df",
+		"name": "Authentication Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28529331"
+	},
+	"item": [
+		{
+			"name": "SignIn",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"sonali.deokar@wipro.com\",\r\n    \"password\":\"Sonali@123\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\":\"sonali\",\r\n    \"username\":\"sonali.deokar@itcinfotech1.com\",\r\n    \"password\":\"Sonali@123\",\r\n    \"contactNo\":\"9876543990\",\r\n    \"employeeId\":\"RB001\",\r\n      \"roles\":[\r\n        \"ADMIN\"\r\n    ]\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/api/auth/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefreshToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"refreshToken\":\"661250b5-9f87-48f4-8ce4-a80e8ea99c5b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/user/refreshtoken",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"user",
+						"refreshtoken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change-Password",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGl0aTEyMyIsImlhdCI6MTY4NjExODQ1MiwiZXhwIjoxNjg2MTIyMDUyfQ.OWeCVMCEENYnjFUjueSglAaWDKnEDDUXSjqvyE983W_sAGnBRrlzbjBMLVlNbrlvVUb4RQfRCNvPRwnLv1mMow",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currentPassword\":\"12345\",\r\n    \"newPassword\":\"12346\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/users/4/change-password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"users",
+						"4",
+						"change-password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGl0aTEyMyIsImlhdCI6MTY4NjExNzU5NywiZXhwIjoxNjg2MTIxMTk3fQ.uLxxIDWzw_prwXPU0WDIR629OmT7-crUxlTjelqgrHAU0gRSsWg6xeWe2YeWyCuZdEznR9FknscqTw2OGAHkkw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/user/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"user",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/api/auth/upload-csv",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Admin/Downloads/SampleData.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/auth/upload-csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"upload-csv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/api/auth/getAll",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/api/auth/getRole",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"getRole"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/api/auth/update/6",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\":\"shivam\",\r\n    \"username\":\"shivam.deokar@provatosoft.com\",\r\n    \"password\":\"Shivam@123\",\r\n    \"contactNo\":\"9876543991\",\r\n    \"employeeId\":\"RB002\",\r\n      \"roles\":[\r\n        \"HR\"\r\n    ],\r\n    \"status\": false\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/auth/update/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/api/auth/get/6",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/api/auth/get/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"get",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/api/auth/getRole/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/api/auth/getRole/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"getRole",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/api/auth/getAll/user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "{{header_global}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/api/auth/getAll/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"auth",
+						"getAll",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

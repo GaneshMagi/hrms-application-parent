@@ -1,0 +1,340 @@
+2023-08-14 11:16:49,312 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-14 11:16:49,384 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - Starting CandidateServiceApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 28056 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service)
+2023-08-14 11:16:49,390 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - No active profile set, falling back to 1 default profile: "default"
+2023-08-14 11:16:49,507 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-14 11:16:49,509 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-14 11:16:50,606 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-14 11:16:51,011 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 11:16:51,252 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 234 ms. Found 30 JPA repository interfaces.
+2023-08-14 11:16:51,627 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=8db05a34-7411-3e4b-bb48-f8a088432714
+2023-08-14 11:16:52,571 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-14 11:16:52,588 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:16:52,589 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-14 11:16:52,590 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-08-14 11:16:52,720 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-14 11:16:52,721 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3209 ms
+2023-08-14 11:16:53,084 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 11:16:53,150 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-14 11:16:53,344 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-14 11:16:53,585 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Starting...
+2023-08-14 11:16:53,797 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Start completed.
+2023-08-14 11:16:53,902 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-14 11:16:54,978 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 11:16:54,989 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 11:16:57,019 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 11:16:57,092 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-08-14 11:16:57,167 [restartedMain] INFO  o.s.c.openfeign.FeignClientFactoryBean             - For 'authentication-service' URL not provided. Will try picking an instance via load-balancing.
+2023-08-14 11:16:58,048 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-14 11:16:58,784 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-14 11:16:58,854 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-14 11:16:58,877 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-14 11:16:58,931 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-14 11:16:59,085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-14 11:16:59,093 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:16:59,134 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-14 11:16:59,136 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-14 11:16:59,136 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-14 11:16:59,137 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-14 11:16:59,137 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-14 11:16:59,138 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-14 11:16:59,138 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-14 11:16:59,504 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-14 11:16:59,506 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-14 11:16:59,509 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-14 11:16:59,513 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691992019512 with initial instances count: 0
+2023-08-14 11:16:59,519 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application CANDIDATE-SERVICE with eureka with status UP
+2023-08-14 11:16:59,520 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691992019520, current=UP, previous=STARTING]
+2023-08-14 11:16:59,522 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081: registering service...
+2023-08-14 11:16:59,522 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:16:59,546 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-14 11:16:59,547 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8081
+2023-08-14 11:16:59,560 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081 - registration status: 204
+2023-08-14 11:16:59,650 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - Started CandidateServiceApplication in 10.983 seconds (JVM running for 11.871)
+2023-08-14 11:17:29,513 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-14 11:17:29,514 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-14 11:17:29,514 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-14 11:17:29,514 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-14 11:17:29,515 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-14 11:17:29,516 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: false
+2023-08-14 11:17:29,516 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-14 11:17:29,531 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-14 11:21:59,141 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:26:59,159 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:31:59,172 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:35:23,968 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 183 class path changes (0 additions, 181 deletions, 2 modifications)
+2023-08-14 11:35:23,975 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application CANDIDATE-SERVICE with eureka with status DOWN
+2023-08-14 11:35:23,975 [Thread-1] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691993123975, current=DOWN, previous=UP]
+2023-08-14 11:35:23,976 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081: registering service...
+2023-08-14 11:35:23,989 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081 - registration status: 204
+2023-08-14 11:35:24,000 [Thread-1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:35:24,000 [Thread-1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-14 11:35:24,006 [Thread-1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:35:24,008 [Thread-1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:35:24,033 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 11:35:24,039 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Shutdown initiated...
+2023-08-14 11:35:24,046 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Shutdown completed.
+2023-08-14 11:35:24,053 [Thread-1] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-14 11:35:27,068 [Thread-1] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-14 11:35:27,075 [Thread-1] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081 - deregister  status: 200
+2023-08-14 11:35:27,084 [Thread-1] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-14 11:35:27,331 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - Starting CandidateServiceApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 28056 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service)
+2023-08-14 11:35:27,331 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - No active profile set, falling back to 1 default profile: "default"
+2023-08-14 11:35:27,696 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-14 11:35:27,875 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 11:35:27,998 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 122 ms. Found 27 JPA repository interfaces.
+2023-08-14 11:35:28,159 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=dbf7a658-1cf9-3dad-8087-e1465c025b35
+2023-08-14 11:35:28,296 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-14 11:35:28,297 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:35:28,298 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-14 11:35:28,298 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-08-14 11:35:28,334 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-14 11:35:28,335 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 999 ms
+2023-08-14 11:35:28,484 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 11:35:28,500 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Starting...
+2023-08-14 11:35:28,568 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Start completed.
+2023-08-14 11:35:28,568 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-14 11:35:28,589 [restartedMain] WARN  o.h.b.i.IdGeneratorInterpreterImpl                 - HHH000392: Hibernate does not support SequenceGenerator.initialValue() unless 'hibernate.id.new_generator_mappings' set
+2023-08-14 11:35:28,599 [restartedMain] WARN  o.h.b.i.IdGeneratorInterpreterImpl                 - HHH000392: Hibernate does not support SequenceGenerator.initialValue() unless 'hibernate.id.new_generator_mappings' set
+2023-08-14 11:35:28,614 [restartedMain] WARN  o.h.b.i.IdGeneratorInterpreterImpl                 - HHH000392: Hibernate does not support SequenceGenerator.initialValue() unless 'hibernate.id.new_generator_mappings' set
+2023-08-14 11:35:28,616 [restartedMain] WARN  o.h.b.i.IdGeneratorInterpreterImpl                 - HHH000392: Hibernate does not support SequenceGenerator.initialValue() unless 'hibernate.id.new_generator_mappings' set
+2023-08-14 11:35:28,628 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,630 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,630 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,631 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,631 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,631 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,632 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,632 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,633 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,633 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,633 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,634 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,634 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,634 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,635 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,635 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,636 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,636 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,637 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,637 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,637 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,638 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,638 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,639 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,639 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,639 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,640 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,640 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,640 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,641 [restartedMain] WARN  org.hibernate.orm.deprecation                      - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2023-08-14 11:35:28,907 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 11:35:28,909 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 11:35:29,231 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateFeedbackResource' defined in file [C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service\target\classes\com\rbts\hrms\candidateonboarding\controller\CandidateFeedbackResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateFeedbackService': Unsatisfied dependency expressed through field 'feedbackMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedbackMapper': Unsatisfied dependency expressed through field 'panelSkillService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.rbts.hrms.candidateonboarding.service.PanelSkillService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-14 11:35:29,234 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 11:35:29,237 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Shutdown initiated...
+2023-08-14 11:35:29,241 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Shutdown completed.
+2023-08-14 11:35:29,243 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-08-14 11:35:29,281 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-14 11:35:29,326 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field panelSkillService in com.rbts.hrms.candidateonboarding.mapper.FeedbackMapper required a bean of type 'com.rbts.hrms.candidateonboarding.service.PanelSkillService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.rbts.hrms.candidateonboarding.service.PanelSkillService' in your configuration.
+
+2023-08-14 11:35:31,320 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - Starting CandidateServiceApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 28056 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service)
+2023-08-14 11:35:31,323 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - No active profile set, falling back to 1 default profile: "default"
+2023-08-14 11:35:31,686 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-14 11:35:31,790 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 11:35:31,941 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 149 ms. Found 30 JPA repository interfaces.
+2023-08-14 11:35:32,093 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=8db05a34-7411-3e4b-bb48-f8a088432714
+2023-08-14 11:35:32,225 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-14 11:35:32,226 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:35:32,227 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-14 11:35:32,227 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-08-14 11:35:32,255 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/]               - Initializing Spring embedded WebApplicationContext
+2023-08-14 11:35:32,255 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 928 ms
+2023-08-14 11:35:32,413 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 11:35:32,480 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Starting...
+2023-08-14 11:35:32,668 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Start completed.
+2023-08-14 11:35:32,729 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-14 11:35:33,001 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 11:35:33,002 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 11:35:34,587 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 11:35:34,638 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-08-14 11:35:34,666 [restartedMain] INFO  o.s.c.openfeign.FeignClientFactoryBean             - For 'authentication-service' URL not provided. Will try picking an instance via load-balancing.
+2023-08-14 11:35:35,246 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-14 11:35:35,765 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-14 11:35:35,807 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-14 11:35:35,827 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-14 11:35:35,900 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-14 11:35:35,909 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-14 11:35:35,910 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:35:35,915 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-14 11:35:35,915 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-14 11:35:35,916 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-14 11:35:35,916 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-14 11:35:35,917 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-14 11:35:35,917 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-14 11:35:35,918 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-14 11:35:35,957 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-14 11:35:35,959 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-14 11:35:35,960 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-14 11:35:35,962 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691993135962 with initial instances count: 2
+2023-08-14 11:35:35,970 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application CANDIDATE-SERVICE with eureka with status UP
+2023-08-14 11:35:35,970 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691993135970, current=UP, previous=STARTING]
+2023-08-14 11:35:35,971 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081: registering service...
+2023-08-14 11:35:35,972 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:35:35,979 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-14 11:35:35,980 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8081
+2023-08-14 11:35:35,989 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081 - registration status: 204
+2023-08-14 11:35:36,172 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - Started CandidateServiceApplication in 5.328 seconds (JVM running for 1128.393)
+2023-08-14 11:35:36,180 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-08-14 11:40:35,926 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:45:35,940 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:45:53,283 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application CANDIDATE-SERVICE with eureka with status DOWN
+2023-08-14 11:45:53,285 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691993753285, current=DOWN, previous=UP]
+2023-08-14 11:45:53,286 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081: registering service...
+2023-08-14 11:45:53,299 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081 - registration status: 204
+2023-08-14 11:45:53,337 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 11:45:53,339 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Shutdown initiated...
+2023-08-14 11:45:53,343 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Shutdown completed.
+2023-08-14 11:45:53,344 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Shutting down DiscoveryClient ...
+2023-08-14 11:45:56,347 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Unregistering ...
+2023-08-14 11:45:56,355 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081 - deregister  status: 200
+2023-08-14 11:45:56,366 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient              - Completed shut down of DiscoveryClient
+2023-08-14 11:46:13,193 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.5.Final
+2023-08-14 11:46:13,218 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - Starting CandidateServiceApplication using Java 17.0.6 on LAPTOP-MC3CCPBF with PID 14220 (C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service\target\classes started by Acer in C:\Users\Acer\Desktop\hrms-application-parent\hrms-candidate-on-boarding-service)
+2023-08-14 11:46:13,220 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - No active profile set, falling back to 1 default profile: "default"
+2023-08-14 11:46:13,265 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-14 11:46:13,266 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-14 11:46:14,164 [restartedMain] INFO  o.s.c.a.ConfigurationClassParser                   - Properties location [classpath:META-INF/build-info.properties] not resolvable: class path resource [META-INF/build-info.properties] cannot be opened because it does not exist
+2023-08-14 11:46:14,491 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 11:46:14,726 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 228 ms. Found 30 JPA repository interfaces.
+2023-08-14 11:46:15,057 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=8db05a34-7411-3e4b-bb48-f8a088432714
+2023-08-14 11:46:15,865 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2023-08-14 11:46:15,880 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:46:15,881 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-14 11:46:15,882 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-08-14 11:46:15,998 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-14 11:46:15,998 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2732 ms
+2023-08-14 11:46:16,396 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 11:46:16,453 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-14 11:46:16,602 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-14 11:46:16,850 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Starting...
+2023-08-14 11:46:17,049 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - MyHikariPool - Start completed.
+2023-08-14 11:46:17,189 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-08-14 11:46:18,359 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 11:46:18,369 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 11:46:20,365 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 11:46:20,412 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-08-14 11:46:20,466 [restartedMain] INFO  o.s.c.openfeign.FeignClientFactoryBean             - For 'authentication-service' URL not provided. Will try picking an instance via load-balancing.
+2023-08-14 11:46:21,398 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-14 11:46:22,125 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-08-14 11:46:22,260 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-08-14 11:46:22,323 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-14 11:46:22,428 [restartedMain] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2023-08-14 11:46:22,518 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2023-08-14 11:46:22,524 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:46:22,558 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2023-08-14 11:46:22,559 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2023-08-14 11:46:22,559 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2023-08-14 11:46:22,559 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2023-08-14 11:46:22,560 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2023-08-14 11:46:22,560 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2023-08-14 11:46:22,560 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2023-08-14 11:46:22,980 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2023-08-14 11:46:22,983 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2023-08-14 11:46:22,986 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-08-14 11:46:22,991 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1691993782990 with initial instances count: 2
+2023-08-14 11:46:22,998 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application CANDIDATE-SERVICE with eureka with status UP
+2023-08-14 11:46:22,999 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1691993782999, current=UP, previous=STARTING]
+2023-08-14 11:46:23,001 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-14 11:46:23,001 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081: registering service...
+2023-08-14 11:46:23,031 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-14 11:46:23,032 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 8081
+2023-08-14 11:46:23,048 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_CANDIDATE-SERVICE/host.docker.internal:candidate-service:8081 - registration status: 204
+2023-08-14 11:46:23,135 [restartedMain] INFO  c.r.h.c.CandidateServiceApplication                - Started CandidateServiceApplication in 10.599 seconds (JVM running for 11.272)
+2023-08-14 11:51:22,575 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 11:56:22,591 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:01:22,603 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:06:22,604 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:11:22,617 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:16:22,629 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:21:22,634 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:26:22,651 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:31:22,656 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 12:36:22,658 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 13:33:55,508 [MyHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - MyHikariPool - Thread starvation or clock leap detected (housekeeper delta=54m7s484ms817탎200ns).
+2023-08-14 13:35:00,146 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 13:40:00,162 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 13:45:00,177 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 13:50:00,184 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 13:55:00,195 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:00:00,199 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:05:00,202 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:10:00,203 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:15:00,215 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:20:00,218 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:25:00,227 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:30:00,241 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:36:42,219 [MyHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - MyHikariPool - Thread starvation or clock leap detected (housekeeper delta=4m45s758ms432탎600ns).
+2023-08-14 14:39:16,006 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:44:16,018 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:49:16,026 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:54:16,034 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 14:59:16,046 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 15:04:16,056 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 15:09:16,066 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 15:25:00,242 [MyHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - MyHikariPool - Thread starvation or clock leap detected (housekeeper delta=11m47s360ms812탎300ns).
+2023-08-14 15:25:33,424 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 15:30:33,439 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 15:59:29,475 [MyHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - MyHikariPool - Thread starvation or clock leap detected (housekeeper delta=24m59s99ms160탎500ns).
+2023-08-14 16:00:02,542 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:05:02,555 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:10:02,570 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:15:02,578 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:20:02,581 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:25:02,596 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:30:02,598 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:35:02,613 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:40:02,624 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:45:02,633 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:50:02,641 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 16:55:02,657 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:00:02,662 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:05:02,677 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:10:02,679 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:15:02,684 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:20:02,693 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:25:02,699 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:30:02,710 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:35:02,726 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:49:17,726 [MyHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - MyHikariPool - Thread starvation or clock leap detected (housekeeper delta=11m46s637ms21탎200ns).
+2023-08-14 17:51:19,361 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 17:56:19,368 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:01:19,372 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:06:19,377 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:11:19,380 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:16:19,396 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:21:19,403 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:26:19,411 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:31:19,420 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:36:19,426 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:41:19,437 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:46:19,442 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:51:19,454 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 18:56:19,463 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 19:01:19,475 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 19:06:19,492 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2023-08-14 19:11:19,493 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
